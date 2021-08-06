@@ -1,0 +1,225 @@
+{
+    "patients": [
+        
+        {
+            "id":0,
+            "name": "Sarah Issac",
+            "age": 32,
+            "gender": "female",
+            "complaint": ["headache", "short of breath"],
+            "treatments": [{"type": "02", "amount": "2L", "changes": "sats at 97%"}],
+            "improved": true,
+            "painScale": 3, 
+            "resources": ["EMS"]
+        },
+        {
+            "id":1,
+            "name": "Jared Jones",
+            "age": 22,
+            "gender": "male",
+            "complaint": ["dizziness"],
+            "treatments": [{"type": "02", "amount": "2L"}],
+            "changes": "sats at 98%",
+            "improved": true,
+            "painScale": [{"start": 0, "end": 0}], 
+            "resources": ["FD"]
+        },
+        {
+            "id":2,
+            "name": "Frederick Oscar",
+            "age": 57,
+            "gender": "male",
+            "complaint": ["chest pains"],
+            "treatments": [{"type": "Nitro", "amount": "3tabs"}],
+            "improved": true,
+            "painScale": [{"start": 8, "end": 3}], 
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":3,
+            "name": "Taja Remone",
+            "age": 30,
+            "gender": "female",
+            "complaint": ["fever", "pain in right side"],
+            "treatments": [{"type": "IV saline", "amount": "500cc"}],
+            "improved": false,
+            "painScale": [{"start": 6, "end": 8}], 
+            "resources": ["EMS"]
+        },
+        {
+            "id":4,
+            "name": "Jathe Wampler",
+            "age": 25,
+            "gender": "male",
+            "complaint": ["left arm pain"],
+            "treatments": [{"type": "splint"}],
+            "painScale": [{"start": 7, "end": 10}], 
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":5,
+            "name": "Elizabeth Sanchez",
+            "age": 32,
+            "gender": "female",
+            "complaint": ["vomiting"],
+            "treatments": [{"type": "IV Saline", "amount": "500cc"}],
+            "improved": true,
+            "painScale": [{"start": 6, "end": 4}],
+            "resources": ["EMS"]
+        },
+        {
+            "id":6,
+            "name": "Anthony Carroll",
+            "age": 62,
+            "gender": "male",
+            "complaint": ["car accident"],
+            "treatments": [{"type": "C-collar"}],
+            "improved": false,
+            "painScale": [{"start": 0, "end": 0}],
+            "resources": ["EMS", "PD", "FD"]
+        },
+        {
+            "id":7,
+            "name": "Joshua Nygent",
+            "age": 15,
+            "gender": "male",
+            "complaint": ["difficulty breathing", "pain in right chest"],
+            "treatments": [{"type": "02", "amount": "2L"}, {"type": "tylenol", "amount": "250mg"}],
+            "improved": true,
+            "painScale": [{"start": 8, "end": 6}],
+            "resources": ["EMS"]
+        },
+        {
+            "id":8,
+            "name": "Kara Lincoln",
+            "age": 37,
+            "gender": "female",
+            "complaint": ["pain in right side from pregnancy"],
+            "treatments": [{"type": "position on left side"}],
+            "improved": false,
+            "painScale": [{"start": 6, "end": 9}], 
+            "resources": ["EMS"]
+        },
+        {
+            "id":9,
+            "name": "Stacey Piston",
+            "age": 46,
+            "gender": "female",
+            "complaint": ["smoke inhalation"],
+            "treatments": [{"type": "02", "amount": "2L"}],
+            "improved": true,
+            "painScale": [{"start": 0, "end": 0}],  
+            "resources": ["EMS", "FD", "PD"]
+        },
+        {
+            "id":10,
+            "name": "Jona Lazarus",
+            "age": 21,
+            "gender": "male",
+            "complaint": ["bee sting causing anaphylaxis"],
+            "treatments": [{"type": "epi pen"}],
+            "improved": true,
+            "painScale": [{"start": 0, "end": 0}], 
+            "resources": ["EMS"]
+        },
+        {
+            "id":11,
+            "name": "Stephanie Heroldo",
+            "age": 35,
+            "gender": "female",
+            "complaint": ["low blood pressure", "tachycardia"],
+            "treatments": [{"type": "C-collar"}, {"type": "backboard"}, {"type": "IV Saline", "amount" : "500cc"}],
+            "improved": false,
+            "painScale": [{"start": 0, "end": 0}],
+            "resources": ["EMS", "FD", "PD"]
+        },
+        {
+            "id":12,
+            "name": "Amrani Jacobs",
+            "age": 65,
+            "gender": "male",
+            "complaint": ["chest pain"],
+            "treatments": [{"type": "02", "amount": "2L"}, {"type": "Nitro", "amount": "3tabs"}],
+            "improved": true,
+            "painScale": [{"start": 10, "end": 6}], 
+            "resources": ["EMS"]
+        },
+        {
+            "id":13,
+            "name": "Constance Sellar",
+            "age": 32,
+            "gender": "female",
+            "complaint": ["no pulse"],
+            "treatments": [{"type": "dual defribrillation", "amount": "700 joules x 3"}],
+            "improved": false,
+            "painScale": [{"start": 0, "end": 0}],  
+            "resources": ["EMS", "FD", "PD"]
+        },
+        {
+            "id":14,
+            "name": "Trip Watkins",
+            "age": 43,
+            "gender": "male",
+            "complaint": ["GSW"],
+            "treatments": [{"type": "02", "amount": "2L"}, {"type": "IV Saline", "amount" : "500cc"}, {"type": "pressure bandage"}],
+            "improved": false,
+            "painScale": [{"start": 10, "end": 10}], 
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":15,
+            "name": "Thomas Ark",
+            "age": 3,
+            "gender": "male",
+            "complaint": ["no breathing"],
+            "treatments": [{"type": "CPR"}],
+            "improved": true,
+            "painScale": [{"start": 0, "end": 0}],
+            "resources": ["EMS", "FD", "PD"]
+        },
+        {
+            "id":16,
+            "name": "Bobbi Mooshy",
+            "age": 40,
+            "gender": "female",
+            "complaint": ["gash in left leg", "pain"],
+            "treatments": [{"type": "pressure bandage"}, {"type": "IV Saline", "amount" : "500cc"}],
+            "improved": true,
+            "painScale": [{"start": 6, "end": 3}], 
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":17,
+            "name": "Issac Thoreau",
+            "age": 39,
+            "gender": "male",
+            "complaint": ["fractured skull"],
+            "treatments": [{"type": "C-collar"}, {"type": "IV Saline", "amount": "500cc"}],
+            "improved": false,
+            "painScale": [{"start": 10, "end": 10}],  
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":18,
+            "name": "Jeffry Epstein",
+            "age": 55,
+            "gender": "male",
+            "complaint": ["no pulse"],
+            "treatments": "none",
+            "improved": false,
+            "painScale": [{"start": 10, "end": 10}],  
+            "resources": ["EMS", "PD"]
+        },
+        {
+            "id":19,
+            "name": "Stella Parks",
+            "age": 82,
+            "gender": "female",
+            "complaint": ["fall"],
+            "treatments": [{"type": "02", "amount": "2L"}],
+            "improved": true,
+            "painScale": [{"start": 5, "end": 3}], 
+            "resources": ["EMS"]
+        }
+    ]
+}

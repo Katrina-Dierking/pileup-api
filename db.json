@@ -7,8 +7,8 @@
             "age": 32,
             "day seen": "Monday",
             "gender": "female",
-            "complaint": ["headache", "short of breath"],
-            "treatments": [{"type": "02", "amount": "2L", "changes": "sats at 97%"}],
+            "complaint": ["headache,", " short of breath"],
+    
             "improved": true,
             "painScale": 3, 
             "resources": ["EMS"]

@@ -23,7 +23,7 @@
             "treatments": [{"type": "02", "amount": "2L"}],
             "changes": "sats at 98%",
             "improved": true,
-            "painScale": [{"start": 0, "end": 0}], 
+            "painScale": {"start": 0, "end": 0}, 
             "resources": ["FD"]
         },
         {
@@ -35,7 +35,7 @@
             "complaint": ["chest pains"],
             "treatments": [{"type": "Nitro", "amount": "3tabs"}],
             "improved": true,
-            "painScale": [{"start": 8, "end": 3}], 
+            "painScale": {"start": 8, "end": 3}, 
             "resources": ["EMS", "PD"]
         },
         {
@@ -47,7 +47,7 @@
             "complaint": ["fever", "pain in right side"],
             "treatments": [{"type": "IV saline", "amount": "500cc"}],
             "improved": false,
-            "painScale": [{"start": 6, "end": 8}], 
+            "painScale": {"start": 6, "end": 8}, 
             "resources": ["EMS"]
         },
         {
@@ -58,7 +58,7 @@
             "gender": "male",
             "complaint": ["left arm pain"],
             "treatments": [{"type": "splint"}],
-            "painScale": [{"start": 7, "end": 10}], 
+            "painScale": {"start": 7, "end": 10}, 
             "resources": ["EMS", "PD"]
         },
         {
@@ -70,7 +70,7 @@
             "complaint": ["vomiting"],
             "treatments": [{"type": "IV Saline", "amount": "500cc"}],
             "improved": true,
-            "painScale": [{"start": 6, "end": 4}],
+            "painScale": {"start": 6, "end": 4},
             "resources": ["EMS"]
         },
         {
@@ -82,7 +82,7 @@
             "complaint": ["car accident"],
             "treatments": [{"type": "C-collar"}],
             "improved": false,
-            "painScale": [{"start": 0, "end": 0}],
+            "painScale": {"start": 0, "end": 0},
             "resources": ["EMS", "PD", "FD"]
         },
         {
@@ -94,7 +94,7 @@
             "complaint": ["difficulty breathing", "pain in right chest"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "tylenol", "amount": "250mg"}],
             "improved": true,
-            "painScale": [{"start": 8, "end": 6}],
+            "painScale": {"start": 8, "end": 6},
             "resources": ["EMS"]
         },
         {
@@ -106,7 +106,7 @@
             "complaint": ["pain in right side from pregnancy"],
             "treatments": [{"type": "position on left side"}],
             "improved": false,
-            "painScale": [{"start": 6, "end": 9}], 
+            "painScale": {"start": 6, "end": 9}, 
             "resources": ["EMS"]
         },
         {
@@ -118,7 +118,7 @@
             "complaint": ["smoke inhalation"],
             "treatments": [{"type": "02", "amount": "2L"}],
             "improved": true,
-            "painScale": [{"start": 0, "end": 0}],  
+            "painScale": {"start": 0, "end": 0},  
             "resources": ["EMS", "FD", "PD"]
         },
         {
@@ -130,7 +130,7 @@
             "complaint": ["bee sting causing anaphylaxis"],
             "treatments": [{"type": "epi pen"}],
             "improved": true,
-            "painScale": [{"start": 0, "end": 0}], 
+            "painScale": {"start": 0, "end": 0}, 
             "resources": ["EMS"]
         },
         {
@@ -142,7 +142,7 @@
             "complaint": ["low blood pressure", "tachycardia"],
             "treatments": [{"type": "C-collar"}, {"type": "backboard"}, {"type": "IV Saline", "amount" : "500cc"}],
             "improved": false,
-            "painScale": [{"start": 0, "end": 0}],
+            "painScale": {"start": 0, "end": 0},
             "resources": ["EMS", "FD", "PD"]
         },
         {
@@ -154,7 +154,7 @@
             "complaint": ["chest pain"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "Nitro", "amount": "3tabs"}],
             "improved": true,
-            "painScale": [{"start": 10, "end": 6}], 
+            "painScale": {"start": 10, "end": 6}, 
             "resources": ["EMS"]
         },
         {
@@ -166,7 +166,7 @@
             "complaint": ["no pulse"],
             "treatments": [{"type": "dual defribrillation", "amount": "700 joules x 3"}],
             "improved": false,
-            "painScale": [{"start": 0, "end": 0}],  
+            "painScale": {"start": 0, "end": 0},  
             "resources": ["EMS", "FD", "PD"]
         },
         {
@@ -178,7 +178,7 @@
             "complaint": ["GSW"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "IV Saline", "amount" : "500cc"}, {"type": "pressure bandage"}],
             "improved": false,
-            "painScale": [{"start": 10, "end": 10}], 
+            "painScale": {"start": 10, "end": 10}, 
             "resources": ["EMS", "PD"]
         },
         {
@@ -190,7 +190,7 @@
             "complaint": ["no breathing"],
             "treatments": [{"type": "CPR"}],
             "improved": true,
-            "painScale": [{"start": 0, "end": 0}],
+            "painScale": {"start": 0, "end": 0},
             "resources": ["EMS", "FD", "PD"]
         },
         {
@@ -202,7 +202,7 @@
             "complaint": ["gash in left leg", "pain"],
             "treatments": [{"type": "pressure bandage"}, {"type": "IV Saline", "amount" : "500cc"}],
             "improved": true,
-            "painScale": [{"start": 6, "end": 3}], 
+            "painScale": {"start": 6, "end": 3}, 
             "resources": ["EMS", "PD"]
         },
         {
@@ -214,7 +214,7 @@
             "complaint": ["fractured skull"],
             "treatments": [{"type": "C-collar"}, {"type": "IV Saline", "amount": "500cc"}],
             "improved": false,
-            "painScale": [{"start": 10, "end": 10}],  
+            "painScale": {"start": 10, "end": 10},  
             "resources": ["EMS", "PD"]
         },
         {
@@ -226,7 +226,7 @@
             "complaint": ["no pulse"],
             "treatments": "none",
             "improved": false,
-            "painScale": [{"start": 10, "end": 10}],  
+            "painScale": {"start": 10, "end": 10},  
             "resources": ["EMS", "PD"]
         },
         {
@@ -238,7 +238,7 @@
             "complaint": ["fall"],
             "treatments": [{"type": "02", "amount": "2L"}],
             "improved": true,
-            "painScale": [{"start": 5, "end": 3}], 
+            "painScale": {"start": 5, "end": 3}, 
             "resources": ["EMS"]
         }
     ]

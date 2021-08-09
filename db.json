@@ -1,8 +1,8 @@
 {
     "patients" : [
         { 
-            "day": "Sunday", 
-            "pts" : [
+            
+            "Sunday" : [
                 {
                     "id":0,
                     "name": "Sarah Issac",
@@ -27,12 +27,13 @@
                     "complaint": "chest pains",
                     "painScale": 8
                 }
-            ]  
+            ] 
+            
         }, 
 
         { 
-            "day": "Monday", 
-            "pts" : [
+         
+            "Monday" : [
                 {
                     "id":3,
                     "name": "Taja Remone",
@@ -45,8 +46,7 @@
         }, 
 
         {
-            "day": "Tuesday", 
-            "pts" : [
+            "Tuesday": [
                 {
                     "id":4,
                     "name": "Jathe Wampler",
@@ -67,8 +67,7 @@
         },
 
         {
-            "day": "Wednesday",
-            "pts" : [
+            "Wednesday" : [
                 {
                     "id":6,
                     "name": "Anthony Carroll",
@@ -97,8 +96,7 @@
         },
 
         {
-            "day": "Thursday",
-            "pts": [
+            "Thursday": [
                 {
                     "id":9,
                     "name": "Amrani Jacobs",
@@ -119,8 +117,7 @@
         }, 
 
         {
-            "day": "Friday",
-            "pts" : [
+            "Friday" : [
                 {
                     "id":11,
                     "name": "Trip Watkins",
@@ -156,8 +153,7 @@
         },
 
         {
-            "day": "Saturday",
-            "pts": [
+            "Saturday": [
                 {
                     "id":15,
                     "name": "Jeffry Epstein",

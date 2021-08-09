@@ -4,8 +4,8 @@
         {
             "id":0,
             "name": "Sarah Issac",
-            "age": 32,
             "day": "Monday",
+            "age": 32,
             "gender": "female",
             "complaint": ["headache,", " short of breath"],
     
@@ -16,8 +16,8 @@
         {
             "id":1,
             "name": "Jared Jones",
-            "age": 22,
             "day": "Friday",
+            "age": 22,
             "gender": "male",
             "complaint": ["dizziness"],
             "treatments": [{"type": "02", "amount": "2L"}],
@@ -29,8 +29,8 @@
         {
             "id":2,
             "name": "Frederick Oscar",
-            "age": 57,
             "day": "Monday",
+            "age": 57,
             "gender": "male",
             "complaint": ["chest pains"],
             "treatments": [{"type": "Nitro", "amount": "3tabs"}],
@@ -41,8 +41,8 @@
         {
             "id":3,
             "name": "Taja Remone",
-            "age": 30,
             "day": "Wednesday",
+            "age": 30,
             "gender": "female",
             "complaint": ["fever,", " pain in right side"],
             "treatments": [{"type": "IV saline", "amount": "500cc"}],
@@ -53,8 +53,8 @@
         {
             "id":4,
             "name": "Jathe Wampler",
-            "age": 25,
             "day": "Tuesday",
+            "age": 25,
             "gender": "male",
             "complaint": ["left arm pain"],
             "treatments": [{"type": "splint"}],
@@ -64,8 +64,8 @@
         {
             "id":5,
             "name": "Elizabeth Sanchez",
-            "age": 32,
             "day": "Friday",
+            "age": 32,
             "gender": "female",
             "complaint": ["vomiting"],
             "treatments": [{"type": "IV Saline", "amount": "500cc"}],
@@ -76,8 +76,8 @@
         {
             "id":6,
             "name": "Anthony Carroll",
-            "age": 62,
             "day": "Saturday",
+            "age": 62,
             "gender": "male",
             "complaint": ["car accident"],
             "treatments": [{"type": "C-collar"}],
@@ -88,8 +88,8 @@
         {
             "id":7,
             "name": "Joshua Nygent",
-            "age": 15,
             "day": "Saturday",
+            "age": 15,
             "gender": "male",
             "complaint": ["difficulty breathing,", " pain in right chest"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "tylenol", "amount": "250mg"}],
@@ -100,8 +100,8 @@
         {
             "id":8,
             "name": "Kara Lincoln",
-            "age": 37,
             "day": "Wednesday",
+            "age": 37,
             "gender": "female",
             "complaint": ["pain in right side from pregnancy"],
             "treatments": [{"type": "position on left side"}],
@@ -112,8 +112,8 @@
         {
             "id":9,
             "name": "Stacey Piston",
-            "age": 46,
             "day": "Monday",
+            "age": 46,
             "gender": "female",
             "complaint": ["smoke inhalation"],
             "treatments": [{"type": "02", "amount": "2L"}],
@@ -124,8 +124,8 @@
         {
             "id":10,
             "name": "Jona Lazarus",
-            "age": 21,
             "day": "Thursday",
+            "age": 21,
             "gender": "male",
             "complaint": ["bee sting causing anaphylaxis"],
             "treatments": [{"type": "epi pen"}],
@@ -136,8 +136,8 @@
         {
             "id":11,
             "name": "Stephanie Heroldo",
-            "age": 35,
             "day": "Monday",
+            "age": 35,
             "gender": "female",
             "complaint": ["low blood pressure,", " tachycardia"],
             "treatments": [{"type": "C-collar"}, {"type": "backboard"}, {"type": "IV Saline", "amount" : "500cc"}],
@@ -148,8 +148,8 @@
         {
             "id":12,
             "name": "Amrani Jacobs",
-            "age": 65,
             "day": "Monday",
+            "age": 65,
             "gender": "male",
             "complaint": ["chest pain"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "Nitro", "amount": "3tabs"}],
@@ -160,9 +160,9 @@
         {
             "id":13,
             "name": "Constance Sellar",
-            "age": 32,
             "gender": "female",
             "day": "Monday",
+            "age": 32,
             "complaint": ["no pulse"],
             "treatments": [{"type": "dual defribrillation", "amount": "700 joules x 3"}],
             "improved": false,
@@ -172,8 +172,8 @@
         {
             "id":14,
             "name": "Trip Watkins",
-            "age": 43,
             "day": "Tuesday",
+            "age": 43,
             "gender": "male",
             "complaint": ["GSW"],
             "treatments": [{"type": "02", "amount": "2L"}, {"type": "IV Saline", "amount" : "500cc"}, {"type": "pressure bandage"}],
@@ -184,8 +184,8 @@
         {
             "id":15,
             "name": "Thomas Ark",
-            "age": 3,
             "day": "Saturday",
+            "age": 3,
             "gender": "male",
             "complaint": ["no breathing"],
             "treatments": [{"type": "CPR"}],
@@ -196,8 +196,8 @@
         {
             "id":16,
             "name": "Bobbi Mooshy",
-            "age": 40,
             "day": "Saturday",
+            "age": 40,
             "gender": "female",
             "complaint": ["gash in left leg,", " pain"],
             "treatments": [{"type": "pressure bandage"}, {"type": "IV Saline", "amount" : "500cc"}],
@@ -208,8 +208,8 @@
         {
             "id":17,
             "name": "Issac Thoreau",
-            "age": 39,
             "day": "Sunday",
+            "age": 39,
             "gender": "male",
             "complaint": ["fractured skull"],
             "treatments": [{"type": "C-collar"}, {"type": "IV Saline", "amount": "500cc"}],
@@ -220,8 +220,8 @@
         {
             "id":18,
             "name": "Jeffry Epstein",
-            "age": 55,
             "day": "Monday",
+            "age": 55,
             "gender": "male",
             "complaint": ["no pulse"],
             "treatments": "none",
@@ -232,8 +232,8 @@
         {
             "id":19,
             "name": "Stella Parks",
-            "age": 82,
             "day": "Sunday",
+            "age": 82,
             "gender": "female",
             "complaint": ["fall"],
             "treatments": [{"type": "02", "amount": "2L"}],

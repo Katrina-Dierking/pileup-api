@@ -1,185 +1,204 @@
-
 {
     "patients" : [
+        { 
+            "day": "Sunday", 
+            "pts" : [
+                {
+                    "id":0,
+                    "name": "Sarah Issac",
+                    "age": 32,
+                    "gender": "female",
+                    "complaint": ["headache,", " short of breath"],
+                    "painScale": 3
+                },
+                {
+                    "id":1,
+                    "name": "Jared Jones",
+                    "age": 22,
+                    "gender": "male",
+                    "complaint": ["dizziness"],
+                    "painScale": 0
+                },
+                {
+                    "id":2,
+                    "name": "Frederick Oscar",
+                    "age": 57,
+                    "gender": "male",
+                    "complaint": "chest pains",
+                    "painScale": 8
+                }
+            ]  
+        }, 
+
+        { 
+            "day": "Monday", 
+            "pts" : [
+                {
+                    "id":3,
+                    "name": "Taja Remone",
+                    "age": 30,
+                    "gender": "female",
+                    "complaint": ["fever,", " pain in right side"],
+                    "painScale": 6
+                }
+            ]
+        }, 
+
         {
-        "Sunday" : [
-            {
-                "id":0,
-                "name": "Sarah Issac",
-                "age": 32,
-                "gender": "female",
-                "complaint": ["headache,", " short of breath"],
-                "painScale": 3
-            },
-            {
-                "id":1,
-                "name": "Jared Jones",
-                "age": 22,
-                "gender": "male",
-                "complaint": ["dizziness"],
-                "treatments": [{"type": "02", "amount": "2L"}],
-                "painScale": 0
-            },
-            {
-                "id":2,
-                "name": "Frederick Oscar",
-                "age": 57,
-                "gender": "male",
-                "complaint": "chest pains",
-                "painScale": 8
-            }
+            "day": "Tuesday", 
+            "pts" : [
+                {
+                    "id":4,
+                    "name": "Jathe Wampler",
+                    "age": 25,
+                    "gender": "male",
+                    "complaint": "left arm pain",
+                    "painScale": 7
+                },
+                {
+                    "id":5,
+                    "name": "Elizabeth Sanchez",
+                    "age": 32,
+                    "gender": "female",
+                    "complaint": "vomiting",
+                    "painScale": 6
+                }
+            ]
+        },
 
-    ],
-         "Monday" : [
-            {
-                "id":3,
-                "name": "Taja Remone",
-                "age": 30,
-                "gender": "female",
-                "complaint": ["fever,", " pain in right side"],
-                "painScale": 6
-            }
-        ],
-        "Tuesday" : [
-            {
-                "id":4,
-                "name": "Jathe Wampler",
-                "age": 25,
-                "gender": "male",
-                "complaint": "left arm pain",
-                "painScale": 7
-            },
-            {
-                "id":5,
-                "name": "Elizabeth Sanchez",
-                "age": 32,
-                "gender": "female",
-                "complaint": "vomiting",
-                "painScale": 6
-            }
-        ],
-        "Wednesday" : [
-            {
-                "id":6,
-                "name": "Anthony Carroll",
-                "age": 62,
-                "gender": "male",
-                "complaint": ["car accident"],
-                "painScale": 0
-            },
-            {
-                "id":7,
-                "name": "Joshua Nygent",
-                "age": 15,
-                "gender": "male",
-                "complaint": ["difficulty breathing,", " pain in right chest"],
-                "painScale": 8
-            },
-            {
-                "id":8,
-                "name": "Kara Lincoln",
-                "age": 37,
-                "gender": "female",
-                "complaint": "pain in right side from pregnancy",
-                "painScale": 6
-            }
-        ],
-        "Thursday" : [
-            {
-                "id":9,
-                "name": "Amrani Jacobs",
-                "age": 65,
-                "gender": "male",
-                "complaint": "chest pain",
-                "painScale": 10
-            },
-            {
-                "id":10,
-                "name": "Constance Sellar",
-                "gender": "female",
-                "age": 32,
-                "complaint": "no pulse",
-                "painScale": 0
-            }
-        ],
-        "Friday" : [
-            {
-                "id":11,
-                "name": "Trip Watkins",
-                "age": 43,
-                "gender": "male",
-                "complaint": "GSW"
-            },
-            {
-                "id":12,
-                "name": "Thomas Ark",
-                "age": 3,
-                "gender": "male",
-                "complaint": "not breathing",
-                "painScale": 0
-            },
-            {
-                "id":13,
-                "name": "Bobbi Mooshy",
-                "age": 40,
-                "gender": "female",
-                "complaint": ["gash in left leg,", " pain"],
-                "painScale": 6
-            },
-            {
-                "id":14,
-                "name": "Issac Thoreau",
-                "age": 39,
-                "gender": "male",
-                "complaint": "fractured skull",
-                "painScale": 10
-            }
-        ],
-        "Saturday" : [
-            {
-                "id":15,
-                "name": "Jeffry Epstein",
-                "age": 55,
-                "gender": "male",
-                "complaint": "no pulse",
-                "painScale": 10
-            },
-            {
-                "id":16,
-                "name": "Stella Parks",
-                "age": 82,
-                "gender": "female",
-                "complaint": "fall",
-                "painScale": 5
-            },
-            {
-                "id":17,
-                "name": "Stacey Piston",
-                "age": 46,
-                "gender": "female",
-                "complaint": "smoke inhalation",
-                "painScale": 0
-            },
-            {
-                "id":18,
-                "name": "Jona Lazarus",
-                "age": 21,
-                "gender": "male",
-                "complaint": "bee sting causing anaphylaxis",
-                "painScale": 0
-            },
-            {
-                "id":19,
-                "name": "Stephanie Heroldo",
-                "age": 35,
-                "gender": "female",
-                "complaint": ["low blood pressure,", " tachycardia"],
-                "painScale": 0
-            }
-        
-        ]
-    }
+        {
+            "day": "Wednesday",
+            "pts" : [
+                {
+                    "id":6,
+                    "name": "Anthony Carroll",
+                    "age": 62,
+                    "gender": "male",
+                    "complaint": ["car accident"],
+                    "painScale": 0
+                },
+                {
+                    "id":7,
+                    "name": "Joshua Nygent",
+                    "age": 15,
+                    "gender": "male",
+                    "complaint": ["difficulty breathing,", " pain in right chest"],
+                    "painScale": 8
+                },
+                {
+                    "id":8,
+                    "name": "Kara Lincoln",
+                    "age": 37,
+                    "gender": "female",
+                    "complaint": "pain in right side from pregnancy",
+                    "painScale": 6
+                }
+            ]
+        },
 
+        {
+            "day": "Thursday",
+            "pts": [
+                {
+                    "id":9,
+                    "name": "Amrani Jacobs",
+                    "age": 65,
+                    "gender": "male",
+                    "complaint": "chest pain",
+                    "painScale": 10
+                },
+                {
+                    "id":10,
+                    "name": "Constance Sellar",
+                    "gender": "female",
+                    "age": 32,
+                    "complaint": "no pulse",
+                    "painScale": 0
+                }
+            ]
+        }, 
+
+        {
+            "day": "Friday",
+            "pts" : [
+                {
+                    "id":11,
+                    "name": "Trip Watkins",
+                    "age": 43,
+                    "gender": "male",
+                    "complaint": "GSW"
+                },
+                {
+                    "id":12,
+                    "name": "Thomas Ark",
+                    "age": 3,
+                    "gender": "male",
+                    "complaint": "not breathing",
+                    "painScale": 0
+                },
+                {
+                    "id":13,
+                    "name": "Bobbi Mooshy",
+                    "age": 40,
+                    "gender": "female",
+                    "complaint": ["gash in left leg,", " pain"],
+                    "painScale": 6
+                },
+                {
+                    "id":14,
+                    "name": "Issac Thoreau",
+                    "age": 39,
+                    "gender": "male",
+                    "complaint": "fractured skull",
+                    "painScale": 10
+                }
+            ]
+        },
+
+        {
+            "day": "Saturday",
+            "pts": [
+                {
+                    "id":15,
+                    "name": "Jeffry Epstein",
+                    "age": 55,
+                    "gender": "male",
+                    "complaint": "no pulse",
+                    "painScale": 10
+                },
+                {
+                    "id":16,
+                    "name": "Stella Parks",
+                    "age": 82,
+                    "gender": "female",
+                    "complaint": "fall",
+                    "painScale": 5
+                },
+                {
+                    "id":17,
+                    "name": "Stacey Piston",
+                    "age": 46,
+                    "gender": "female",
+                    "complaint": "smoke inhalation",
+                    "painScale": 0
+                },
+                {
+                    "id":18,
+                    "name": "Jona Lazarus",
+                    "age": 21,
+                    "gender": "male",
+                    "complaint": "bee sting causing anaphylaxis",
+                    "painScale": 0
+                },
+                {
+                    "id":19,
+                    "name": "Stephanie Heroldo",
+                    "age": 35,
+                    "gender": "female",
+                    "complaint": ["low blood pressure,", " tachycardia"],
+                    "painScale": 0
+                }
+            ]
+        }
     ]
 }
-    

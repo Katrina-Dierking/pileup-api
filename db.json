@@ -202,5 +202,19 @@
                 }
             ]
         }
+    ],
+
+    "users": [
+        {
+            "id": 0,
+            "username": "Katrina Dierking",
+            "password": "123ABC"
+        }, 
+        
+        {
+            "id": 1,
+            "username": "Josh Redding",
+            "password": "123ABC"
+        }
     ]
 }

@@ -204,17 +204,45 @@
         }
     ],
 
-    "users": [
-        {
-            "id": 0,
-            "username": "Katrina Dierking",
-            "password": "123ABC"
-        }, 
+    
+    
+
+        "userData" : [
+            {
+                "id": 1,
+                "username": "katrina",
+                "password": "notyourbusiness"
+            },
+            {
+                "id": 2,
+                "username": "angela",
+                "password": "mindyourbusiness"
+            },
+            {
+                "id": 3,
+                "username": "al",
+                "password": "stayoutofmybusiness"
+            },
+            {
+                "id": 4,
+                "username": "jose",
+                "password": "businessasusual"
+            }
+        ],
+    
+
         
-        {
-            "id": 1,
-            "username": "Josh Redding",
-            "password": "123ABC"
-        }
-    ]
+        "newsFeed" : [
+            {
+                "id": 1,
+                "username": "justin",
+                "timeline": "Can someone take my shift Friday?"
+            },
+            {
+                "id": 2,
+                "username": "kaitlyn",
+                "timeline": "OOO until Monday!!"
+            }
+        ]
+    
 }
